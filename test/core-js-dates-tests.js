@@ -77,7 +77,7 @@ describe('core-js-dates', () => {
       assert.equal(tasks.getDayName('01 Jan 1970 05:50:00 UTC'), 'Thursday');
       assert.equal(tasks.getDayName('15 Feb 1980 10:40:10 UTC'), 'Friday');
       assert.equal(tasks.getDayName('20 May 1990 05:30:15 UTC'), 'Sunday');
-      assert.equal(tasks.getDayName('25 Jun 2030 20:20:35 UTC'), 'Tuesday');
+      assert.equal(tasks.getDayName('25 Jun 2030 16:20:35 UTC'), 'Tuesday');
       assert.equal(
         forbidden.isCommented(tasks.getDayName),
         false,
